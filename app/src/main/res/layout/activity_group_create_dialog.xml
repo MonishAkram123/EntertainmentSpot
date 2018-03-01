@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light.Dialog"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editTextGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:drawableStart="@drawable/ic_group"
+        android:paddingStart="10dp"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text="Group Name" />
+    <ListView
+        android:id="@+id/selectMembers"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Create"
+            android:background="@drawable/button_activity_connection"
+            android:id="@+id/create_action"/>
+    </LinearLayout>
+
+</LinearLayout>

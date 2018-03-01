@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context="com.example.monishakram.entertainmentspot.LoginActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textViewWrongCredential"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextPassword"
+        android:layout_alignStart="@+id/editTextUserName"
+        android:layout_marginBottom="57dp"
+        android:text="@string/invalid_username_or_password"
+        android:textColor="#FFFF0000"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="203dp"
+        android:background="@drawable/edit_text"
+        android:inputType="text"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:hint="@string/username"
+        android:paddingStart="10sp"
+        android:textColor="@color/textColor"
+        android:textSize="23sp"
+        tools:ignore="LabelFor,RtlSymmetry"
+        android:text="Monish"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/editTextUserName"
+        android:layout_below="@+id/editTextUserName"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:paddingStart="10sp"
+        android:textColor="@color/textColor"
+        android:textSize="23sp"
+        tools:ignore="RtlSymmetry,TextFields"
+        android:text="akram123"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextPassword"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/button_activity_connection"
+        android:text="@string/login"
+        android:textColor="@color/textColor"
+        android:textSize="23sp"
+        android:elevation="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Entertainment Spot</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">Fragment1</string>
+    <string name="hello_blank_fragment2">Unavailable from Server</string>
+    <string name="hello_blank_fragment3">No playlist created yet.</string>
+    <string name="chat">CHAT</string>
+    <string name="media">MEDIA</string>
+    <string name="my_playlist">MY PLAYLIST</string>
+    <string name="ip_address">IP Address</string>
+    <string name="buttonConnect">CONNECT</string>
+    <string name="invalid_username_or_password">* Invalid username or password</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="port">Port</string>
+</resources>
